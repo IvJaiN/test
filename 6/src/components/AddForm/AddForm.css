@@ -1,0 +1,6 @@
+.add-form {
+    max-width: 300px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+}

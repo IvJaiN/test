@@ -1,0 +1,11 @@
+.employees-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+}
+.employees-item + .employees-item {
+    margin-top: 20px;
+}

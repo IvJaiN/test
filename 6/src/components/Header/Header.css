@@ -1,0 +1,22 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-list {
+    display: flex;
+    list-style: none;
+
+}
+.header-list__item + .header-list__item {
+    margin-left: 40px;
+}
+.header-list__link {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header-list__link:hover {
+    text-decoration: underline;
+}
